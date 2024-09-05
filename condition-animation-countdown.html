@@ -1,0 +1,1415 @@
+<style>
+    a:not([name]) {
+        color: #5e5e5e;
+        font-weight: normal;
+        text-decoration: underline;
+        font-style: normal
+    }
+
+    a:link {
+        color: #5e5e5e;
+        font-weight: normal;
+        text-decoration: underline;
+        font-style: normal
+    }
+
+    a:visited {
+        color: #5e5e5e;
+        font-weight: normal;
+        text-decoration: underline;
+        font-style: normal
+    }
+
+    a:active {
+        color: #5e5e5e;
+        font-weight: normal;
+        text-decoration: underline;
+        font-style: normal
+    }
+
+    a:hover {
+        color: #5e5e5e;
+        font-weight: normal;
+        text-decoration: underline;
+        font-style: normal
+    }
+
+    .container-countdown {
+        .margin: auto;
+    }
+
+    @media only screen and (min-width: 480px) {
+        .container-countdown {
+            margin: auto;
+            width: 40%;
+            margin-bottom: 0;
+            padding: 0;
+        }
+    }
+
+    #outlook a {
+        padding: 0
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%
+    }
+
+    table,
+    td {
+        border-collapse: collapse;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0
+    }
+
+    img {
+        border: 0;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic
+    }
+
+    p {
+        display: block;
+        margin: 13px 0
+    }
+
+    @media only screen and (min-width: 480px) {
+        .mj-column-per-100 {
+            width: 100% !important;
+            max-width: 100%
+        }
+    }
+
+    .moz-text-html .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%
+    }
+
+    @media only screen and (max-width: 480px) {
+        div.kl-row.colstack div.kl-column {
+            display: block !important;
+            width: 100% !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .component-wrapper .mob-no-spc {
+            padding-left: 0 !important;
+            padding-right: 0 !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        td.kl-img-base-auto-width {
+            width: 100% !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .kl-text {
+            padding-right: 18px !important;
+            padding-left: 18px !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        table.mj-full-width-mobile {
+            width: 100% !important
+        }
+
+        td.mj-full-width-mobile {
+            width: auto !important
+        }
+    }
+
+    img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        max-width: 100%
+    }
+
+    .root-container {
+        background-repeat: repeat !important;
+        background-size: auto !important;
+        background-position: left top !important
+    }
+
+    .root-container-spacing {
+        padding-top: 50px !important;
+        padding-bottom: 20px !important;
+        font-size: 0 !important
+    }
+
+    .content-padding {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .content-padding.first {
+        padding-top: 0 !important
+    }
+
+    .content-padding.last {
+        padding-bottom: 0 !important
+    }
+
+    @media only screen and (max-width: 480px) {
+        td.mobile-only {
+            display: table-cell !important
+        }
+
+        div.mobile-only {
+            display: block !important
+        }
+
+        table.mobile-only {
+            display: table !important
+        }
+
+        .desktop-only {
+            display: none !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .table-mobile-only {
+            display: table-cell !important;
+            max-height: none !important
+        }
+
+        .table-mobile-only.block {
+            display: block !important
+        }
+
+        .table-mobile-only.inline-block {
+            display: inline-block !important
+        }
+
+        .table-desktop-only {
+            max-height: 0 !important;
+            display: none !important;
+            mso-hide: all !important;
+            overflow: hidden !important
+        }
+    }
+
+    p {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 1em
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        body.mce-content-body,
+        /* NOTE: needed for internal tinymce styles */
+        .kl-text>div,
+        .kl-table-subblock div,
+        .kl-split-subblock>div {
+            font-size: 14px !important;
+            line-height: 1.3 !important
+        }
+    }
+
+    h1 {
+        color: #666;
+        font-family: Helvetica, Arial;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: left
+    }
+
+    @media only screen and (max-width: 480px) {
+        h1 {
+            font-size: 40px !important;
+            line-height: 1.1 !important
+        }
+    }
+
+    h2 {
+        color: #666;
+        font-family: Helvetica, Arial;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin: 0;
+        margin-bottom: 16px;
+        text-align: left
+    }
+
+    @media only screen and (max-width: 480px) {
+        h2 {
+            font-size: 32px !important;
+            line-height: 1.1 !important
+        }
+    }
+
+    h3 {
+        color: #666;
+        font-family: Helvetica, Arial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin: 0;
+        margin-bottom: 12px;
+        text-align: left
+    }
+
+    @media only screen and (max-width: 480px) {
+        h3 {
+            font-size: 24px !important;
+            line-height: 1.1 !important
+        }
+    }
+
+    h4 {
+        color: #666;
+        font-family: Helvetica, Arial;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin: 0;
+        margin-bottom: 9px;
+        text-align: left
+    }
+
+    @media only screen and (max-width: 480px) {
+        h4 {
+            font-size: 18px !important;
+            line-height: 1.1 !important
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .root-container {
+            width: 100% !important
+        }
+
+        .root-container-spacing {
+            padding: 10px !important
+        }
+
+        .content-padding {
+            padding-left: 0 !important;
+            padding-right: 0 !important
+        }
+
+        .content-padding.first {
+            padding-top: 0 !important
+        }
+
+        .content-padding.last {
+            padding-bottom: 0 !important
+        }
+
+        .component-wrapper {
+            padding-left: 0 !important;
+            padding-right: 0 !important
+        }
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+    }
+
+    canvas {
+        position: fixed;
+        /* Fixes the canvas in the viewport */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        /* Ensures canvas doesn't interfere with mouse events */
+        z-index: 100;
+        /* Places the canvas behind other content */
+    }
+</style>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section" role="presentation"
+        style="font-size: 0px; background-color: rgb(247, 247, 247); color: var(--cui-card-color); font-family: var(--cui-body-font-family); font-weight: var(--cui-body-font-weight); text-align: var(--cui-body-text-align); width: 100%;">
+        <tbody>
+            <tr>
+                <td>
+                    <div style="margin:0px auto;max-width:100%;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                            style="width:100%;">
+                            <tbody>
+                                <tr>
+                                    <td style="direction: ltr; padding: 0px; text-align: center;">
+                                        <div
+                                            style="background:#ffffff;background-color:#ffffff;margin:0px auto;border-radius:0px 0px 0px 0px;max-width:100%;">
+                                            <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                role="presentation"
+                                                style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; width: 100%; border-radius: 0px;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="direction: ltr; padding: 0px;">
+                                                            <div class="content-padding first">
+                                                                <div class="kl-row colstack"
+                                                                    style="display:table;table-layout:fixed;width:100%;">
+                                                                    <div class="kl-column"
+                                                                        style="display:table-cell;vertical-align:top;width:100%;">
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class="kl-img-base-auto-width"
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/acee390a-d15f-4f9f-83eb-2e7650693fa7.png"
+                                                                                                                                style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                width="600">
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:9px;padding-right:18px;padding-bottom:9px;padding-left:18px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="kl-text"
+                                                                                                            style="padding: 0px; word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="font-family: Helvetica, Arial; font-size: 14px; letter-spacing: 0px; line-height: 1.3; color: rgb(102, 102, 102);">
+                                                                                                                <p
+                                                                                                                    style="text-align: center;">
+                                                                                                                    <span
+                                                                                                                        style="color: rgb(0, 0, 0); font-size: 28px; font-weight: bold;">EXTRA
+                                                                                                                        DATANG
+                                                                                                                        LAGI!</span>
+                                                                                                                </p>
+                                                                                                                <div
+                                                                                                                    style="text-align: justify;">
+                                                                                                                    <span
+                                                                                                                        style="color: #000000;"><span
+                                                                                                                            style="font-size: 22px;">Promo
+                                                                                                                            EXTRA
+                                                                                                                            untuk
+                                                                                                                            travelingmu
+                                                                                                                            kembali,
+                                                                                                                            potongan
+                                                                                                                            harga
+                                                                                                                            tour
+                                                                                                                            hingga
+                                                                                                                            2
+                                                                                                                            Juta,
+                                                                                                                            diskon
+                                                                                                                            tiket
+                                                                                                                            pesawat,
+                                                                                                                            hotel,
+                                                                                                                            dan
+                                                                                                                            tiket
+                                                                                                                            atraksi
+                                                                                                                            hingga
+                                                                                                                            150
+                                                                                                                            Ribu.
+                                                                                                                            Bepergian
+                                                                                                                            aman
+                                                                                                                            dengan
+                                                                                                                            diskon
+                                                                                                                            asuransi
+                                                                                                                            perjalanan
+                                                                                                                            hingga
+                                                                                                                            25%.
+                                                                                                                            Serta
+                                                                                                                            mencoba
+                                                                                                                            pengalaman
+                                                                                                                            berlayar
+                                                                                                                            dengan
+                                                                                                                            perjalanan
+                                                                                                                            kapal
+                                                                                                                            pesiar
+                                                                                                                            dan
+                                                                                                                            dapatkan
+                                                                                                                            potongan
+                                                                                                                            harga
+                                                                                                                            hinggal
+                                                                                                                            35
+                                                                                                                            Juta.</span></span>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            style="padding: 0px; word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                role="presentation"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td
+                                                                                                                            style="width:100%;">
+                                                                                                                            <img alt="Shadow"
+                                                                                                                                height="auto"
+                                                                                                                                src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/bottom_shadow_444.png"
+                                                                                                                                style="display: block; width: 100%; font-size: 13px;"
+                                                                                                                                width="600">
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="kl-row colstack"
+                                                                    style="display:table;table-layout:fixed;width:100%;">
+                                                                    <div class="kl-column"
+                                                                        style="display:table-cell;vertical-align:top;width:33.3334%;">
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-tour-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/ca79f9a3-2e32-4f18-a790-cd3a9fc7b16a.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-atraksi-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/bf00d20e-38b7-4ca1-80c9-b422d9b5e728.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="kl-column"
+                                                                        style="display:table-cell;vertical-align:top;width:33.3334%;">
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-flight-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/e3d9c86f-3853-44ab-8f7c-c03aefbfa2d5.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-insurance-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/3acedabe-e78c-4b91-8944-4feb3b10c21b.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="kl-column"
+                                                                        style="display:table-cell;vertical-align:top;width:33.3334%;">
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-hotel-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/1a89fe2b-1957-4b99-ab59-ba73c18c43c0.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="kl-image"
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <table
+                                                                                                                border="0"
+                                                                                                                cellpadding="0"
+                                                                                                                cellspacing="0"
+                                                                                                                style="border-spacing: 0px;">
+                                                                                                                <tbody>
+                                                                                                                    <tr>
+                                                                                                                        <td class=""
+                                                                                                                            style="border-width: 0px; border-style: initial; border-color: initial; padding: 0px; width: 100%;"
+                                                                                                                            valign="top">
+                                                                                                                            <a class="kl-img-link"
+                                                                                                                                href="https://www.goldenrama.com/promo-detail/extra-cruise-2024">
+                                                                                                                                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/ef97ac78-da2b-451f-a272-f9d88209bf9e.png"
+                                                                                                                                    style="display: block; font-size: 13px; width: 100%;"
+                                                                                                                                    width="180"></a>
+                                                                                                                        </td>
+                                                                                                                    </tr>
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                        <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                            style="text-align: left; direction: ltr; vertical-align: top;">
+                                                                            <br><br><br>
+                                                                            <table border="0" cellpadding="0"
+                                                                                cellspacing="0" role="presentation"
+                                                                                style="width:100%;" width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class=""
+                                                                                            style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                            <br><br><br>
+                                                                                            <table border="0"
+                                                                                                cellpadding="0"
+                                                                                                cellspacing="0"
+                                                                                                role="presentation"
+                                                                                                width="100%">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td
+                                                                                                            style="word-break: break-word;">
+                                                                                                            <div
+                                                                                                                style="height:35px;line-height:35px;">
+                                                                                                                 <br>
+                                                                                                            </div><br>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table><br>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table><br>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="root-container" id="bodyTable" style="background-color:#ffffff;">
+        <div class="root-container-spacing">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section" role="presentation"
+                style="width:100%;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="kl-section-outlook" style="width:100%;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                            <div style="margin:0px auto;max-width:100%;">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                    style="width:100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+                                                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:100%;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                                                <div
+                                                    style="background:#ffffff;background-color:#ffffff;margin:0px auto;border-radius:0px 0px 0px 0px;max-width:100%;">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0"
+                                                        role="presentation"
+                                                        style="background:#ffffff;background-color:#ffffff;width:100%;border-radius:0px 0px 0px 0px;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td
+                                                                    style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:center;">
+                                                                    <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><![endif]-->
+                                                                    <div class="content-padding">
+                                                                        <!--[if true]><table border="0" cellpadding="0" cellspacing="0" width="600" style="width:100%;direction:ltr"><tr><![endif]-->
+                                                                        <div class="kl-row colstack"
+                                                                            style="display:table;table-layout:fixed;width:100%;">
+                                                                            <!--[if true]><td style="vertical-align:top;width:100%;"><![endif]-->
+                                                                            <div class="kl-column"
+                                                                                style="display:table-cell;vertical-align:top;width:100%;">
+                                                                                <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                                    style="font-size:0px;text-align:left;direction:ltr;vertical-align:top;width:100%;">
+                                                                                    <table border="0" cellpadding="0"
+                                                                                        cellspacing="0"
+                                                                                        role="presentation"
+                                                                                        style="width:100%;"
+                                                                                        width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class=""
+                                                                                                    style="vertical-align:top;padding-top:9px;padding-right:18px;padding-bottom:9px;padding-left:18px;">
+                                                                                                    <table border="0"
+                                                                                                        cellpadding="0"
+                                                                                                        cellspacing="0"
+                                                                                                        role="presentation"
+                                                                                                        style=""
+                                                                                                        width="100%">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="left"
+                                                                                                                    class="kl-text"
+                                                                                                                    style="font-size:0px;padding:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
+                                                                                                                    <div
+                                                                                                                        style="font-family:Helvetica, Arial;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1.3;text-align:left;color:#666666;">
+                                                                                                                        <div
+                                                                                                                            style="text-align: center;">
+                                                                                                                            <span
+                                                                                                                                style="font-size: 18px;"><strong>NANTIKAN
+                                                                                                                                    JUGA
+                                                                                                                                    EXTRA
+                                                                                                                                    ONLINE
+                                                                                                                                    TRAVEL
+                                                                                                                                    FAIR
+                                                                                                                                    53JUTA
+                                                                                                                                    KEJUTAN!</strong></span>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                                <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                                    style="font-size:0px;text-align:left;direction:ltr;vertical-align:top;width:100%;">
+                                                                                    <table border="0" cellpadding="0"
+                                                                                        cellspacing="0"
+                                                                                        role="presentation"
+                                                                                        style="width:100%;"
+                                                                                        width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class=""
+                                                                                                    style="vertical-align:top;padding-top:9px;padding-right:18px;padding-bottom:9px;padding-left:18px;">
+                                                                                                    <table border="0"
+                                                                                                        cellpadding="0"
+                                                                                                        cellspacing="0"
+                                                                                                        role="presentation"
+                                                                                                        style=""
+                                                                                                        width="100%">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="left"
+                                                                                                                    class="kl-text"
+                                                                                                                    style="font-size:0px;padding:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;word-break:break-word;">
+                                                                                                                    <div
+                                                                                                                        style="font-family:Helvetica, Arial;font-size:14px;font-style:normal;font-weight:400;letter-spacing:0px;line-height:1.3;text-align:left;color:#666666;">
+                                                                                                                        <div
+                                                                                                                            style="text-align: center;">
+                                                                                                                            <strong>09
+                                                                                                                                -
+                                                                                                                                10
+                                                                                                                                September
+                                                                                                                                2024</strong>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+
+                                                                                <div class="container-countdown">
+                                                                                    <iframe
+                                                                                        src="https://logwork.com/widget/countdown/?text=Countdown%20Timer&amp;timezone=Asia%2FJakarta&amp;width=&amp;style=columns&amp;uid=953278&amp;loc=https://logwork.com/countdown-gycp&amp;language=&amp;textcolor=&amp;background=&amp;date=2024-09-09%2001%3A00%3A00&amp;digitscolor=&amp;unitscolor=&amp;url=https://prod1-cms.goldenrama.com/"
+                                                                                        id="countdown_iframe_953278"
+                                                                                        scrolling="no"
+                                                                                        allowtransparency="true"
+                                                                                        frameborder="0"
+                                                                                        title="Countdown"
+                                                                                        style="width: 100%; height: 100%; border: none; margin: 0px; visibility: visible;"></iframe>
+                                                                                </div>
+
+                                                                                <div class="mj-column-per-100 mj-outlook-group-fix component-wrapper"
+                                                                                    style="font-size:0px;text-align:left;direction:ltr;vertical-align:top;width:100%;">
+                                                                                    <table border="0" cellpadding="0"
+                                                                                        cellspacing="0"
+                                                                                        role="presentation"
+                                                                                        style="width:100%;"
+                                                                                        width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td class=""
+                                                                                                    style="vertical-align:top;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;">
+                                                                                                    <table border="0"
+                                                                                                        cellpadding="0"
+                                                                                                        cellspacing="0"
+                                                                                                        role="presentation"
+                                                                                                        style=""
+                                                                                                        width="100%">
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td align="center"
+                                                                                                                    class="kl-image"
+                                                                                                                    style="font-size:0px;word-break:break-word;">
+                                                                                                                    <table
+                                                                                                                        border="0"
+                                                                                                                        cellpadding="0"
+                                                                                                                        cellspacing="0"
+                                                                                                                        style="border-collapse:collapse;border-spacing:0px;">
+                                                                                                                        <tbody>
+                                                                                                                            <tr>
+                                                                                                                                <td class=""
+                                                                                                                                    style="border:0;padding:0px 0px 0px 0px;width:70%;"
+                                                                                                                                    valign="top">
+                                                                                                                                    <a class="kl-img-link"
+                                                                                                                                        href="https://www.goldenrama.com/promo-detail/extra-online-travel-fair-53juta-kejutan"
+                                                                                                                                        style="color:#5e5e5e; font-style:normal; font-weight:normal; text-decoration:underline">
+                                                                                                                                        <img src="https://d3k81ch9hvuctc.cloudfront.net/company/RsF7SQ/images/8216145f-8ce3-4f3f-a8ae-4f7fa176f74c.png"
+                                                                                                                                            style="display: block; outline: none; text-decoration: none; height: auto; font-size: 13px; width: 100%; margin-left: auto; margin-right: auto;"
+                                                                                                                                            width="500">
+                                                                                                                                    </a>
+                                                                                                                                </td>
+                                                                                                                            </tr>
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--[if true]></td><![endif]-->
+                                                                        </div>
+                                                                        <!--[if true]></tr></table><![endif]-->
+                                                                    </div>
+                                                                    <!--[if mso | IE]></table><![endif]-->
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <!--[if mso | IE]></td></tr></table></table><![endif]-->
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+        </div>
+    </div>
+</body>
+
+<canvas id="canvas"></canvas>
+
+<script>
+    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener("DOMContentLoaded", onLoad);
+
+    const dynamicText = "";
+    const probability = 0.04;
+    let canvas, ctx, w, h, particles = [], xPoint, yPoint, displayText = false;
+    let countdown = 0;
+    
+    // Set target date to WIB (UTC+7)
+    const targetDate = new Date('2024-09-05T10:20:00+07:00');
+
+    function onLoad() {
+        canvas = document.getElementById("canvas");
+        ctx = canvas.getContext("2d");
+        resizeCanvas();
+        window.requestAnimationFrame(updateWorld);
+
+        // Countdown timer
+        const countdownInterval = setInterval(() => {
+            const now = new Date();
+            const timeDiff = Math.floor((targetDate - now) / 1000); // Difference in seconds
+
+            if (timeDiff <= 0) {
+                clearInterval(countdownInterval);
+                displayText = true; // Show the text and start fireworks after countdown
+            } else {
+                countdown = timeDiff; // Update countdown with time difference in seconds
+            }
+        }, 1000);
+    }
+
+    function resizeCanvas() {
+        w = canvas.width = window.innerWidth;
+        h = canvas.height = window.innerHeight;
+    }
+
+    function updateWorld() {
+        update();
+        paint();
+        window.requestAnimationFrame(updateWorld);
+    }
+
+    function update() {
+        if (particles.length < 500 && Math.random() < probability && displayText) {
+            createFirework();
+        }
+        particles = particles.filter(particle => particle.move());
+    }
+
+    function paint() {
+        ctx.clearRect(0, 0, w, h);
+        ctx.globalCompositeOperation = 'lighter';
+        particles.forEach(particle => particle.draw(ctx));
+
+        if (countdown > 0) {
+            const hours = Math.floor(countdown / 3600);
+            const minutes = Math.floor((countdown % 3600) / 60);
+            const seconds = countdown % 60;
+
+            const countdownText = `${hours}h ${minutes}m ${seconds}s`;
+
+            // Uncomment below lines if you want to display countdown text
+            // ctx.fillStyle = "#FFFFFF"; // Display countdown in white color
+            // ctx.font = "italic bold 50px 'Dancing Script', cursive";
+            // ctx.textAlign = "center";
+            // ctx.textBaseline = "middle";
+            // ctx.fillText(countdownText, w / 2, h / 2);
+        } else if (displayText) {
+            // Uncomment below lines if you want to display dynamic text
+            // ctx.fillStyle = getRandomColor();
+            // ctx.font = "italic bold 50px 'Dancing Script', cursive";
+            // ctx.textAlign = "center";
+            // ctx.textBaseline = "middle";
+            // ctx.fillText(dynamicText, w / 2, h / 2);
+        }
+    }
+
+    function createFirework() {
+        xPoint = Math.random() * (w - 200) + 100;
+        yPoint = Math.random() * (h - 200) + 100;
+        const nFire = Math.random() * 50 + 100;
+        const c = getRandomFireworkColor();
+
+        for (let i = 0; i < nFire; i++) {
+            const particle = new Particle(c);
+            particles.push(particle);
+        }
+    }
+
+    function Particle(color) {
+        this.w = this.h = Math.random() * 4 + 1;
+        this.x = xPoint - this.w / 2;
+        this.y = yPoint - this.h / 2;
+        this.vx = (Math.random() - 0.5) * 10;
+        this.vy = (Math.random() - 0.5) * 10;
+        this.alpha = Math.random() * 0.5 + 0.5;
+        this.color = color;
+    }
+
+    Particle.prototype = {
+        gravity: 0.05,
+        move: function () {
+            this.x += this.vx;
+            this.vy += this.gravity;
+            this.y += this.vy;
+            this.alpha -= 0.01;
+            return !(this.x <= -this.w || this.x >= w || this.y >= h || this.alpha <= 0);
+        },
+        draw: function (c) {
+            c.save();
+            c.beginPath();
+            c.translate(this.x + this.w / 2, this.y + this.h / 2);
+            c.arc(0, 0, this.w, 0, Math.PI * 2);
+            c.fillStyle = this.color;
+            c.globalAlpha = this.alpha;
+            c.closePath();
+            c.fill();
+            c.restore();
+        }
+    };
+
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    function getRandomFireworkColor() {
+        const colors = ["#FF5252", "#FFD740", "#64B5F6", "#69F0AE", "#FF4081"];
+        return colors[Math.floor(Math.random() * colors.length)];
+    }
+</script>
